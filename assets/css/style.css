@@ -1,0 +1,118 @@
+/* Importando fonte que será usada: font-family: 'Montserrat', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+/* Estrutura comum ao site */
+:root {
+	--width-max-desktop: 1150px;
+	--laranja-padrao: #b98b59;
+	--qnt-banners: 3;
+}
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.default-button {
+	font-size: 14px;
+	font-weight: 600;
+	padding: 17px 40px;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 20px;
+	background-color: var(--laranja-padrao);
+	border: 0;
+	cursor: pointer;
+}
+
+
+
+/* Estrutura HEADER */
+header {
+	height: 100px;
+	width: 100%;
+	background-color: #000;
+	color: #fff;
+}
+
+header nav {
+	max-width: var(--width-max-desktop);
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100px;
+}
+header nav img {
+	height: 100px;
+	margin-right: 20px;
+}
+
+header ul {
+	text-transform: uppercase;
+	display: flex;
+	list-style: none;
+}
+header ul a {
+	text-decoration: none;
+	display: block;
+	padding-right: 7px;
+	padding-left: 7px;
+	line-height: 95px;
+	border-bottom: solid 5px #000;
+	color: #fff;
+	font-weight: 600;
+	font-size: 14px;
+}
+header ul a:hover{
+	border-bottom: solid 5px var(--laranja-padrao);
+}
+
+/* Área dos Banners - Slide Banners */
+body #banner {
+	overflow-x: hidden;
+}
+
+main .slide-banners {
+	height: calc(100vh - 100px);
+	width: calc(100vw * var(--qnt-banners));
+	
+	display: flex;
+}
+
+main .slide-banners .banner {
+	height: 100%;
+	width: 100vw;
+	background-image: url("../img/bg.jpg");
+	background-size: cover;
+	background-position: bottom;
+}
+main .slide-banners .banner .estrutura {
+	background-color: rgba(0,0,0,0.7);
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+main .slide-banners .banner .header h1,
+main .slide-banners .banner .header h2 {
+	text-transform: uppercase;
+	font-size: 50px;
+}
+main .slide-banners .banner .header h1 {
+	color: #fff;
+}
+main .slide-banners .banner .header h2 {
+	color: var(--laranja-padrao);
+	padding-bottom: 30px;
+}
+	
+main .slide-banners .banner .main p {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 600;
+	padding-bottom: 60px;
+}
