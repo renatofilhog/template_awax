@@ -13,10 +13,14 @@
 	padding: 0;
 	font-family: 'Montserrat', sans-serif;
 }
+body {
+	overflow-x: hidden;
+	padding-bottom: 315px;
+}
 
 .default-button {
-	font-size: 14px;
-	font-weight: 600;
+	font-size: 12.5px;
+	font-weight: 700;
 	padding: 17px 40px;
 	color: #fff;
 	text-decoration: none;
@@ -24,8 +28,72 @@
 	background-color: var(--laranja-padrao);
 	border: 0;
 	cursor: pointer;
+	text-transform: uppercase;
 }
 
+.call-us {
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: var(--laranja-padrao);
+	bottom: 20px;
+	right: 50px;
+	cursor: pointer;
+	
+}
+.section-light {
+	max-width: var(--width-max-desktop);
+	margin: auto;
+	padding-top: 60px;
+	padding-bottom: 60px;
+
+}
+
+.section-light {
+	color: #000;
+}
+.section-light .header-section h1 {
+	text-transform: uppercase;
+	font-size: 23px;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.section-light .header-section h2 {
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 700;
+	text-align: center;
+	color: #afafaf;
+	margin-bottom: 50px;
+}
+
+.section-dark {
+	color: #FFF;
+	background-color: #000;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.section-dark .container {
+	margin: auto;
+	max-width: var(--width-max-desktop);
+
+}
+.section-dark .header-section h1 {
+	text-transform: uppercase;
+	font-size: 23px;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.section-dark .header-section h2 {
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 50px;
+}
 
 
 /* Estrutura HEADER */
@@ -70,9 +138,6 @@ header ul a:hover{
 }
 
 /* Área dos Banners - Slide Banners */
-body #banner {
-	overflow-x: hidden;
-}
 
 main .slide-banners {
 	height: calc(100vh - 100px);
@@ -115,4 +180,87 @@ main .slide-banners .banner .main p {
 	font-size: 20px;
 	font-weight: 600;
 	padding-bottom: 60px;
+}
+main #banner .controls-banner {
+	display: flex;
+	width: 100vw;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	bottom: 40px;
+
+}
+
+main #banner .bol-banner {
+	width: 15px;
+	height: 15px;
+	border: 3px solid var(--laranja-padrao);
+	border-radius: 50%;
+	margin-right: 5px;
+	margin-left: 5px;
+	cursor: pointer;
+}
+
+main #banner .bol-banner.active,
+main #banner .bol-banner:hover {
+	background-color: var(--laranja-padrao);
+}
+
+
+/* Section About US */
+#about-us .body-section {
+	display: flex;
+	justify-content: space-between;
+}
+#about-us .body-section .text-about {
+	flex: 1;
+	margin-right: 35px;
+}
+#about-us .body-section .text-about p {
+	font-size: 10pt;
+	word-spacing: 0;
+	margin-bottom: 40px;
+	text-align: justify;
+}
+
+#about-us .body-section .video-about {
+	width: 450px;
+	height: 280px;
+	box-shadow: 4px 4px 35px #a0a0a0;
+}
+
+/* Section Services */
+#services .body-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+#services .body-section .serv:nth-child(1) {
+	border-left: 2px solid #383838;
+}
+#services .body-section .serv {
+	min-width: calc(var(--width-max-desktop)/4);
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 15px 30px;
+	border-right: 2px solid #383838;
+}
+
+#services .body-section .serv img {
+	max-width: 60px;
+	margin-bottom: 40px;
+}
+#services .body-section .serv h1 {
+	text-transform: uppercase;
+	font-size: 16px;
+	margin-bottom: 13px;
+}
+
+#services .body-section .serv p {
+	color: #afafaf;
+	font-size: 10px;
+	text-align: center;
 }
