@@ -443,3 +443,40 @@ main #banner .bol-banner:hover {
 #our-team .bol-banner:hover {
 	background-color: var(--laranja-padrao);
 }
+
+/* Section Happy Clients */
+
+#clients .section-light {
+	background-color: #f7f7f7;
+}
+
+#clients .client-review {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#clients .client-review img {
+	padding-bottom: 30px;
+}
+
+#clients .client-review h1 {
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+
+#clients .client-review h2 {
+	font-size: 17px;
+	font-weight: 500;
+	padding-bottom: 30px;
+}
+
+#clients .client-review p {
+	color: #7e7e7e;
+	font-size: 10pt;
+	text-align: center;
+	max-width: 800px;
+	letter-spacing: 1px;
+	line-height: 20px;
+}
