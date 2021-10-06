@@ -581,3 +581,22 @@ main #banner .bol-banner:hover {
 #price .princing-table .princing-card .choose.active {
 	background-color: #b98b59;
 }
+
+/* Premium-feature's Section */
+#premium .body-section .feature {
+	display: flex;
+}
+#premium .feature-description {
+	display: flex;
+	flex-direction: column;
+}
+#premium .feature-description .title {
+	display: flex;
+}
+#premium .feature-description .title h1 {
+	text-transform: uppercase;
+	margin-left: 30px;
+}
+#premium .feature-description .desc {
+	margin-left: 64px;
+}
