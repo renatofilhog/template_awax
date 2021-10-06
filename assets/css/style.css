@@ -1,6 +1,5 @@
 /* Importando fonte que será usada: font-family: 'Montserrat', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
-
 /* Estrutura comum ao site */
 :root {
 	--width-max-desktop: 1150px;
@@ -17,7 +16,6 @@ body {
 	overflow-x: hidden;
 	padding-bottom: 315px;
 }
-
 .default-button {
 	font-size: 12.5px;
 	font-weight: 700;
@@ -30,7 +28,6 @@ body {
 	cursor: pointer;
 	text-transform: uppercase;
 }
-
 .call-us {
 	position: fixed;
 	width: 50px;
@@ -40,18 +37,15 @@ body {
 	bottom: 20px;
 	right: 50px;
 	cursor: pointer;
-	
 }
 .section-light {
-	max-width: var(--width-max-desktop);
-	margin: auto;
 	padding-top: 60px;
 	padding-bottom: 60px;
-
-}
-
-.section-light {
 	color: #000;
+}
+.section-light .container {
+	margin: auto;
+	max-width: var(--width-max-desktop);
 }
 .section-light .header-section h1 {
 	text-transform: uppercase;
@@ -68,7 +62,6 @@ body {
 	color: #afafaf;
 	margin-bottom: 50px;
 }
-
 .section-dark {
 	color: #FFF;
 	background-color: #000;
@@ -77,7 +70,6 @@ body {
 	margin: auto;
 	max-width: var(--width-max-desktop);
 	padding-bottom: 60px;
-
 }
 .section-dark .header-section h1 {
 	text-transform: uppercase;
@@ -194,7 +186,7 @@ main #banner .controls-banner {
 main #banner .bol-banner {
 	width: 15px;
 	height: 15px;
-	border: 3px solid var(--laranja-padrao);
+	border: 2px solid var(--laranja-padrao);
 	border-radius: 50%;
 	margin-right: 5px;
 	margin-left: 5px;
@@ -432,7 +424,7 @@ main #banner .bol-banner:hover {
 #our-team .bol-banner {
 	width: 15px;
 	height: 15px;
-	border: 3px solid var(--laranja-padrao);
+	border: 2px solid var(--laranja-padrao);
 	border-radius: 50%;
 	margin-right: 5px;
 	margin-left: 5px;
@@ -446,7 +438,7 @@ main #banner .bol-banner:hover {
 
 /* Section Happy Clients */
 
-#clients .section-light {
+#clients {
 	background-color: #f7f7f7;
 }
 
@@ -479,4 +471,113 @@ main #banner .bol-banner:hover {
 	max-width: 800px;
 	letter-spacing: 1px;
 	line-height: 20px;
+}
+
+#clients .controls-banner {
+	margin-top: 55px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	bottom: 0;
+}
+#clients .bol-banner {
+	width: 15px;
+	height: 15px;
+	border: 2px solid var(--laranja-padrao);
+	border-radius: 50%;
+	margin-right: 5px;
+	margin-left: 5px;
+	cursor: pointer;
+}
+
+#clients .bol-banner.active,
+#clients .bol-banner:hover {
+	background-color: var(--laranja-padrao);
+}
+
+/* Sections Brandings */
+#brandings {
+	width: 100%;
+	padding-top: 60px;
+    padding-bottom: 60px;
+	border-top: 1px solid #cfcfcf;
+	border-bottom: 1px solid #cfcfcf;
+}
+#brandings .container {
+	max-width: var(--width-max-desktop);
+	margin: auto;
+}
+#brandings .container .body-section {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/* Section Price */
+#price {
+	background-color: #f7f7f7;
+}
+#price .princing-table {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+#price .princing-table .princing-card {
+	max-width: 300px;
+	min-width: 230px;
+	border-radius: 5px;
+	background-color: #fff;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 50px;
+	padding-right: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-right: 30px;
+	margin-top: 20px;
+}
+
+#price .princing-table .princing-card h2 {
+	text-transform: uppercase;
+	text-align: center;
+	color: #242424;
+	font-size: 13pt;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+#price .princing-table .princing-card h1 {
+	text-align: center;
+	font-size: 27pt;
+	text-transform: uppercase;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+#price .princing-table .princing-card h3 {
+	text-align: center;
+	margin-top: 0;
+	padding-top:0;
+	font-weight: 400;
+	color: #aeaeae;
+	font-size: 10pt;
+	text-transform: uppercase;
+	margin-bottom: 25px;
+}
+#price .princing-table .princing-card p {
+	text-align: center;
+	padding-bottom: 0px;
+	text-transform: capitalize;
+	font-size: 9pt;
+	color:#898989;
+}
+#price .princing-table .princing-card .choose {
+	margin-top: 30px;
+	background-color: #373737;
+}
+#price .princing-table .princing-card .choose:hover,
+#price .princing-table .princing-card .choose.active {
+	background-color: #b98b59;
 }
