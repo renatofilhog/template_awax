@@ -679,3 +679,100 @@ main #banner .bol-banner:hover {
 	font-size: 10px;
 	text-align: center;
 }
+
+/* Tell about us section */
+#tell-about-us {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #cfcfcf;
+	background-color: #fefefe;
+}
+#tell-about-us .tell {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 60px;
+}
+#tell-about-us .tell img {
+	text-align: center;
+	margin-right: 20px;
+}
+#tell-about-us p {
+	font-size: 9pt;
+	color: #bfbfbf;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+#tell-about-us .social-info {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 30px;
+}
+#tell-about-us .info-social {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#tell-about-us .social-info .fundo {
+	height: 35px;
+	width: 35px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 5px;
+}
+#tell-about-us .social-info .fundo.twitter {background-color: #34c5f2;}
+#tell-about-us .social-info .fundo.linkedin {background-color: #137cb5;}
+#tell-about-us .social-info .fundo.facebook {background-color: #336296;}
+#tell-about-us .social-info .fundo.googleplus {background-color: #e64238;}
+#tell-about-us .social-info .fundo.pinterest {background-color: #b81c29;}
+
+/* Contact-us Sections */
+#contact-us {background-color: #f7f7f7;}
+
+#contact-us .form-div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#contact-us .form-div form {
+	width: 60%;
+}
+#contact-us .form-div form .first-line,
+#contact-us .form-div form .second-line,
+#contact-us .form-div form .third-line {
+	display: flex;
+	margin-bottom: 40px;
+}
+#contact-us .form-div form .fourth-line {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#contact-us .form-div form input,
+#contact-us .form-div form textarea {
+	width: 100%;
+	border:0;
+	background-color: transparent;
+	border-bottom: 2px solid #aeaeae;
+	line-height: 40px;
+	font-size: 11pt;
+}
+#contact-us .form-div form textarea {
+	width: 100%;
+	text-align: justify;
+	resize: none;
+}
+#contact-us .form-div form input:focus-visible,
+#contact-us .form-div form textarea:focus-visible {
+	outline: transparent;
+	border-bottom: 2px solid var(--laranja-padrao);
+}
+#contact-us .form-div form .first-line input:nth-child(1){
+	margin-right: 30px;
+}
