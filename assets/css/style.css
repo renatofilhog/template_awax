@@ -91,8 +91,6 @@ body {
 	text-align: center;
 	padding-bottom: 60px;
 }
-
-
 /* Estrutura HEADER */
 header {
 	height: 100px;
@@ -100,7 +98,6 @@ header {
 	background-color: #000;
 	color: #fff;
 }
-
 header nav {
 	max-width: var(--width-max-desktop);
 	margin: auto;
@@ -113,7 +110,6 @@ header nav img {
 	height: 100px;
 	margin-right: 20px;
 }
-
 header ul {
 	text-transform: uppercase;
 	display: flex;
@@ -128,21 +124,17 @@ header ul a {
 	border-bottom: solid 5px #000;
 	color: #fff;
 	font-weight: 600;
-	font-size: 14px;
+	font-size: 10pt;
 }
 header ul a:hover{
 	border-bottom: solid 5px var(--laranja-padrao);
 }
-
 /* Área dos Banners - Slide Banners */
-
 main .slide-banners {
 	height: calc(100vh - 100px);
 	width: calc(100vw * var(--qnt-banners));
-	
 	display: flex;
 }
-
 main .slide-banners .banner {
 	height: 100%;
 	width: 100vw;
@@ -151,7 +143,7 @@ main .slide-banners .banner {
 	background-position: bottom;
 }
 main .slide-banners .banner .estrutura {
-	background-color: rgba(0,0,0,0.7);
+	background-color: rgba(0,0,0,0.8);
 	width: 100%;
 	height: 100%;
 	display: flex;
@@ -171,12 +163,12 @@ main .slide-banners .banner .header h2 {
 	color: var(--laranja-padrao);
 	padding-bottom: 30px;
 }
-	
 main .slide-banners .banner .main p {
 	color: #fff;
 	font-size: 20px;
 	font-weight: 600;
 	padding-bottom: 60px;
+	text-transform: uppercase;
 }
 main #banner .controls-banner {
 	display: flex;
@@ -185,9 +177,7 @@ main #banner .controls-banner {
 	align-items: center;
 	position: absolute;
 	bottom: 40px;
-
 }
-
 main #banner .bol-banner {
 	width: 15px;
 	height: 15px;
@@ -197,13 +187,10 @@ main #banner .bol-banner {
 	margin-left: 5px;
 	cursor: pointer;
 }
-
 main #banner .bol-banner.active,
 main #banner .bol-banner:hover {
 	background-color: var(--laranja-padrao);
 }
-
-
 /* Section About US */
 #about-us .body-section {
 	display: flex;
@@ -219,13 +206,11 @@ main #banner .bol-banner:hover {
 	margin-bottom: 40px;
 	text-align: justify;
 }
-
 #about-us .body-section .video-about {
 	width: 450px;
 	height: 280px;
 	box-shadow: 4px 4px 35px #a0a0a0;
 }
-
 /* Section Services */
 #services .body-section {
 	display: flex;
@@ -245,7 +230,6 @@ main #banner .bol-banner:hover {
 	padding: 15px 30px;
 	border-right: 2px solid #383838;
 }
-
 #services .body-section .serv img {
 	max-width: 60px;
 	margin-bottom: 40px;
@@ -255,14 +239,11 @@ main #banner .bol-banner:hover {
 	font-size: 16px;
 	margin-bottom: 13px;
 }
-
 #services .body-section .serv p {
 	color: #afafaf;
 	font-size: 10px;
 	text-align: center;
 }
-
-
 /* Section Our Projects */
 #our-projects .body-section {
 	display: flex;
@@ -340,7 +321,6 @@ main #banner .bol-banner:hover {
 #our-projects .more-projects {
 	margin-top: 35px;
 }
-
 /* Section Our-team */
 #our-team .header-section h2 {
 	color: #aeaeae;
@@ -351,7 +331,6 @@ main #banner .bol-banner:hover {
 	background-position: center;
 	background-color: none; /* rgba(0,0,0,0.1); */
 }
-
 #our-team .escuro {
 	display:flex;
 	width: 100%;
@@ -378,7 +357,6 @@ main #banner .bol-banner:hover {
 #our-team .body-section .box-worker img {
 	padding-bottom: 40px;
 	max-width: 210px;
-
 }
 #our-team .body-section .box-worker h1 {
 	font-weight: 500;
@@ -412,12 +390,10 @@ main #banner .bol-banner:hover {
 	padding-top: 35px;
 	margin-right: 7px;
 }
-
 #our-team .body-section .box-worker .social-media .social-box.active,
 #our-team .body-section .box-worker .social-media .social-box:hover {
 	background-color: var(--laranja-padrao);
 }
-
 #our-team .controls-banner {
 	margin-top: 50px;
 	display: flex;
@@ -435,40 +411,32 @@ main #banner .bol-banner:hover {
 	margin-left: 5px;
 	cursor: pointer;
 }
-
 #our-team .bol-banner.active,
 #our-team .bol-banner:hover {
 	background-color: var(--laranja-padrao);
 }
-
 /* Section Happy Clients */
-
 #clients {
 	background-color: #f7f7f7;
 }
-
 #clients .client-review {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
-
 #clients .client-review img {
 	padding-bottom: 30px;
 }
-
 #clients .client-review h1 {
 	font-size: 20px;
 	padding-bottom: 20px;
 }
-
 #clients .client-review h2 {
 	font-size: 17px;
 	font-weight: 500;
 	padding-bottom: 30px;
 }
-
 #clients .client-review p {
 	color: #7e7e7e;
 	font-size: 10pt;
@@ -477,7 +445,6 @@ main #banner .bol-banner:hover {
 	letter-spacing: 1px;
 	line-height: 20px;
 }
-
 #clients .controls-banner {
 	margin-top: 55px;
 	display: flex;
@@ -494,12 +461,10 @@ main #banner .bol-banner:hover {
 	margin-left: 5px;
 	cursor: pointer;
 }
-
 #clients .bol-banner.active,
 #clients .bol-banner:hover {
 	background-color: var(--laranja-padrao);
 }
-
 /* Sections Brandings */
 #brandings {
 	width: 100%;
@@ -517,7 +482,6 @@ main #banner .bol-banner:hover {
 	justify-content: space-between;
 	align-items: center;
 }
-
 /* Section Price */
 #price {
 	background-color: #f7f7f7;
@@ -544,7 +508,6 @@ main #banner .bol-banner:hover {
 	margin-right: 30px;
 	margin-top: 20px;
 }
-
 #price .princing-table .princing-card h2 {
 	text-transform: uppercase;
 	text-align: center;
@@ -553,7 +516,6 @@ main #banner .bol-banner:hover {
 	font-weight: 600;
 	margin-bottom: 20px;
 }
-
 #price .princing-table .princing-card h1 {
 	text-align: center;
 	font-size: 27pt;
@@ -586,7 +548,6 @@ main #banner .bol-banner:hover {
 #price .princing-table .princing-card .choose.active {
 	background-color: #b98b59;
 }
-
 /* Premium-feature's Section */
 #premium .body-section .feature {
 	display: flex;
@@ -617,7 +578,6 @@ main #banner .bol-banner:hover {
 	font-size: 10pt;
 	margin-top: 5px;
 }
-
 #premium .controls-banner {
 	margin-top: 55px;
 	display: flex;
@@ -643,7 +603,6 @@ main #banner .bol-banner:hover {
 	margin-top: 40px;
 	justify-content: center;
 }
-
 /* Some-facts's section */
 #some-facts .header-section h2 {
 	color: #b0b0b0;
@@ -684,7 +643,6 @@ main #banner .bol-banner:hover {
 	font-size: 10px;
 	text-align: center;
 }
-
 /* Tell about us section */
 #tell-about-us {
 	display: flex;
@@ -736,10 +694,8 @@ main #banner .bol-banner:hover {
 #tell-about-us .social-info .fundo.facebook {background-color: #336296;}
 #tell-about-us .social-info .fundo.googleplus {background-color: #e64238;}
 #tell-about-us .social-info .fundo.pinterest {background-color: #b81c29;}
-
 /* Contact-us Sections */
 #contact-us {background-color: #f7f7f7;}
-
 #contact-us .form-div {
 	display: flex;
 	justify-content: center;
@@ -819,9 +775,7 @@ main #banner .bol-banner:hover {
 	text-decoration: none;
 	color: #7e7e7e;
 }
-
 /* Footer */
-
 footer {
 	background-color: #000;
 	min-height: 250px;
@@ -835,7 +789,6 @@ footer .container {
 	margin:auto;
 }
 /* BOX 1 */
-
 footer .box1, footer .box2, footer .box3 {
 	flex: 1;
 }
