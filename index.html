@@ -6,6 +6,16 @@
 	<meta charset="utf-8">
 	<title>Awax template</title>
 </head>
+<script>
+	function toggleMenu() {
+		var menu = document.getElementById('menu-ul');
+		if (menu.style.display == 'flex') {
+			menu.style.display = 'none';
+		} else {
+			menu.style.display = 'flex'
+		}
+	}
+</script>
 <body>
 
 	<header>
@@ -13,8 +23,14 @@
 			<div class="logo">
 				<img src="assets/img/LOGO.png" alt="logo">	
 			</div>
+			
 			<div class="menu">
-				<ul>
+				<div class="menu-mobile" onclick="toggleMenu()">
+					<div class="listra"></div>
+					<div class="listra"></div>
+					<div class="listra"></div>
+				</div>
+				<ul id="menu-ul">
 					<a href="#" class="active">
 						<li>home</li>
 					</a>
@@ -671,11 +687,7 @@
 						<div class="fundo-cinza">
 							<img src="assets/img/web.png" alt="web">
 						</div>
-						<p>
-							<a href="https://www.github.com/renatofilhog" target="_blank">
-								https://www.github.com/renatofilhog
-							</a>
-						</p>
+						<p>https://www.github.com/renatofilhog</p>
 					</div>
 				</div>
 			</div>
@@ -735,8 +747,8 @@
 		</div>
 	</div>
 </footer>
-<div class="call-us">
+<!-- <div class="call-us">
 	<img src="assets/img/web.png" alt="">
-</div>
+</div> -->
 </body>
 </html>
