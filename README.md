@@ -11,4 +11,8 @@
 - Consertar os mini-banners (Estão com 2)
 - Otimizar slideshow
 
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/renatofilhog?tab=repositories)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/renatofilhog/)
+
 ### Para melhor visualização, ir para o link na descrição, ou https://alluredevolopment.com.br/awax
