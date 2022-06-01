@@ -146,6 +146,7 @@ main .slide-banners {
 	height: calc(100vh - 100px);
 	width: calc(100vw * var(--qnt-banners));
 	display: flex;
+	transition: 0.5s;
 }
 main .slide-banners .banner {
 	height: 100%;
@@ -350,7 +351,11 @@ main #banner .bol-banner:hover {
 	height: 100%;
 	background-color: rgba(0,0,0,0.75);
 }
+#our-team .body-section {
+	width: 300vw;
+}
 #our-team .body-section .workers {
+	max-width: 65vw;
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
