@@ -234,7 +234,7 @@ main #banner .bol-banner:hover {
 	border-left: 2px solid #383838;
 }
 #services .body-section .serv {
-	min-width: calc(var(--width-max-desktop)/4);
+	min-width: calc((var(--width-max-desktop)/4)-1px);
 	flex: 1;
 	display: flex;
 	flex-direction: column;
@@ -248,7 +248,7 @@ main #banner .bol-banner:hover {
 }
 #services .body-section .serv h1 {
 	text-transform: uppercase;
-	font-size: 16px;
+	font-size: 15px;
 	margin-bottom: 13px;
 }
 #services .body-section .serv p {
@@ -356,7 +356,7 @@ main #banner .bol-banner:hover {
 	flex-wrap: wrap;
 }
 #our-team .body-section .box-worker {
-	min-width: 330px;
+	max-width: 330px;
 	background-color: #fff;
 	display: flex;
 	flex-direction: column;
@@ -628,7 +628,7 @@ main #banner .bol-banner:hover {
 	flex-wrap: wrap;
 }
 #some-facts .body-section .fact {
-	min-width: calc(var(--width-max-desktop)/4);
+	min-width: calc(var(--width-max-desktop)/4-1px);
 	flex: 1;
 	display: flex;
 	flex-direction: column;
