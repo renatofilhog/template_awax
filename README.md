@@ -6,10 +6,6 @@
 - CSS3
 # Diferencial
 - Modelo simples e com bastantes funcionalidades, facilmente pode servir de inspiração e com certeza mexe com muitas coisas dentro das linguagens citadas
-## Próximos passos:
-- Inserir link na hospedagem
-- Consertar os mini-banners (Estão com 2)
-- Otimizar slideshow
 
 ## 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/renatofilhog?tab=repositories)
