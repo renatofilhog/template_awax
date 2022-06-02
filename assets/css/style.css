@@ -91,6 +91,27 @@ body {
 	text-align: center;
 	padding-bottom: 60px;
 }
+
+.section-light-slide .header-section{
+	margin: auto;
+	text-align: center;
+}
+.section-light-slide .header-section h1 {
+	text-transform: uppercase;
+	font-size: 23px;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.section-light-slide .header-section h2 {
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 700;
+	text-align: center;
+	color: #afafaf;
+	margin-bottom: 50px;
+}
+
 /* Estrutura HEADER */
 header {
 	width: 100%;
@@ -447,25 +468,7 @@ main #banner .bol-banner:hover {
 	padding: 60px 0px;
 	background-color: #f7f7f7;
 }
-#clients .header-section{
-	margin: auto;
-	text-align: center;
-}
-#clients .header-section h1 {
-	text-transform: uppercase;
-	font-size: 23px;
-	font-weight: 700;
-	text-align: center;
-	margin-bottom: 20px;
-}
-#clients .header-section h2 {
-	text-transform: uppercase;
-	font-size: 12px;
-	font-weight: 700;
-	text-align: center;
-	color: #afafaf;
-	margin-bottom: 50px;
-}
+
 .clients {
 	width: 300vw;
 	display: flex;
@@ -604,14 +607,20 @@ main #banner .bol-banner:hover {
 	background-color: #b98b59;
 }
 /* Premium-feature's Section */
+#premium {
+	padding: 50px 0;
+}
+#premium .body-section {
+	width: 300vw;
+	display: flex;
+	transition: .5s;
+}
 #premium .body-section .feature {
 	display: flex;
+	width: 100vw;
 	justify-content: space-around;
 	padding-bottom: 50px;
 	border-bottom: 1px solid #d8d8d8;
-}
-#premium .body-section .feature img {
-	
 }
 #premium .feature-description {
 	display: flex;
