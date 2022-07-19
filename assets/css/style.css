@@ -1,6 +1,7 @@
 /* Importando fonte que será usada: font-family: 'Montserrat', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 /* Estrutura comum ao site */
+
 :root {
 	--width-max-desktop: 1150px;
 	--laranja-padrao: #b98b59;
@@ -1015,3 +1016,5 @@ footer .box3 a {
 		margin-right: 0;
 	}
 }
+
+
